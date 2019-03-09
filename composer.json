@@ -1,0 +1,44 @@
+{
+    "name": "rijupramanik/laravelpassportmultiauth",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riju Pramanik",
+            "email": "pramanikriju@gmail.com",
+            "homepage": "https://riju.co"
+        }
+    ],
+    "homepage": "https://github.com/rijupramanik/laravelpassportmultiauth",
+    "keywords": ["Laravel", "LaravelPassportMultiAuth"],
+    "require": {
+        "illuminate/support": "~5",
+        "laravel/passport": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "rijupramanik\\LaravelPassportMultiAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "rijupramanik\\LaravelPassportMultiAuth\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "rijupramanik\\LaravelPassportMultiAuth\\LaravelPassportMultiAuthServiceProvider"
+            ],
+            "aliases": {
+                "LaravelPassportMultiAuth": "rijupramanik\\LaravelPassportMultiAuth\\Facades\\LaravelPassportMultiAuth"
+            }
+        }
+    }
+}
