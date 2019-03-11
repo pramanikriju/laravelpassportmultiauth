@@ -1,6 +1,6 @@
 {
     "name": "rijupramanik/laravelpassportmultiauth",
-    "description": ":description",
+    "description": "Enables Multi Auth providers for Laravel Passport",
     "license": "MIT",
     "authors": [
         {
