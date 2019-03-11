@@ -1,10 +1,9 @@
 # LaravelPassportMultiAuth
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Total Downloads][ico-downloads]][link-downloads]
+[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/version)](https://packagist.org/packages/rijupramanik/laravelpassportmultiauth)
+[![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](https://packagist.org/packages/rijupramanik/laravelpassportmultiauth)
 [![Build Status][ico-travis]][link-travis]
-[![StyleCI][ico-styleci]][link-styleci]
-
+[![License](https://poser.pugx.org/phpunit/phpunit/license)](https://packagist.org/packages/rijupramanik/laravelpassportmultiauth)
 This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
 
 ## Installation
